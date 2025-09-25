@@ -1,4 +1,4 @@
-# A modern Swift SDK for OpenAI's Realtime API
+# A modern Swift SDK for OpenAI's API
 
 [![Install Size](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.emergetools.com%2Fapi%2Fv2%2Fpublic_new_build%3FexampleId%3Dswift-realtime-openai.OpenAIRealtime%26platform%3Dios%26badgeOption%3Dmax_install_size_only%26buildType%3Drelease&query=$.badgeMetadata&label=OpenAI&logo=apple)](https://www.emergetools.com/app/example/ios/swift-realtime-openai.OpenAIRealtime/release)
 [![Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fm1guelpf%2Fswift-realtime-openai%2Fbadge%3Ftype%3Dswift-versions&color=brightgreen)](https://swiftpackageindex.com/m1guelpf/swift-realtime-openai)
@@ -17,7 +17,7 @@ The Swift Package Manager allows for developers to easily integrate packages int
 ### SPM Through XCode Project
 
 -   File > Swift Packages > Add Package Dependency
--   Add https://github.com/m1guelpf/swift-realtime-openai.git
+-   Add https://github.com/davidgeere/swift-openai.git
 -   Select "Branch" with "main"
 
 ### SPM Through Xcode Package
@@ -26,7 +26,7 @@ Once you have your Swift package set up, add the Git link within the dependencie
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/m1guelpf/swift-realtime-openai.git", .branch("main"))
+    .package(url: "https://github.com/davidgeere/swift-openai.git", .branch("main"))
 ]
 ```
 
